@@ -2,7 +2,8 @@
 
 import os
 import cv2
-import numpy as np 
+import numpy as np  
+
 import mediapipe as mp
 mp_selfie_segmentation = mp.solutions.selfie_segmentation
 selfie_segmentation = mp_selfie_segmentation.SelfieSegmentation(model_selection =1)
