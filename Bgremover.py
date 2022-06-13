@@ -37,4 +37,5 @@ while cap.isOpened():
             image_index = 0
         bg_image = cv2.imread(image_path+'/'+images[image_index])
 cap.release()
+
 cv2.destroyAllWindows()
