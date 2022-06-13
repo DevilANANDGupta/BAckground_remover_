@@ -11,7 +11,8 @@ image_path = 'D:/all_project/Background Remover/img'
 images = os.listdir(image_path)
 image_index = 0
 bg_image = cv2.imread(image_path+'/'+images[image_index])
-cap  = cv2.VideoCapture(0)
+cap  = cv2.VideoCapture(0) 
+
 while cap.isOpened():
     _, frame = cap.read()
     frame = cv2.flip(frame, 1)
