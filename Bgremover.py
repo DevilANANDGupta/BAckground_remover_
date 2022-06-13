@@ -27,7 +27,7 @@ while cap.isOpened():
     if key == ord('q'):
         break
     elif key == ord('d'):
-        if image_index != len(images)-1:
+        if image_index != len(images)-1: 
             image_index +=1
         else:
             image_index = 0
