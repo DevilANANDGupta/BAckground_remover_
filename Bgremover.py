@@ -7,6 +7,7 @@ mp_selfie_segmentation = mp.solutions.selfie_segmentation
 selfie_segmentation = mp_selfie_segmentation.SelfieSegmentation(model_selection =1)
 #path of image
 image_path = 'D:/all_project/Background Remover/img'
+
 images = os.listdir(image_path)
 image_index = 0
 bg_image = cv2.imread(image_path+'/'+images[image_index])
